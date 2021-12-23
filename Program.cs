@@ -10,11 +10,6 @@ namespace PPK___Zadanie_2_pkt_3
             ulong wynik;
             string liczby;
 
-            ulong Iloczyn(ulong liczba1, ulong liczba2)
-            {
-                return liczba1 * liczba2;
-            }
-
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(" *** Kalkulator ***\n\n");
             Console.ResetColor();
@@ -33,7 +28,7 @@ namespace PPK___Zadanie_2_pkt_3
                     goto StartProgramu;
                 }
             }
-            wynik = tablicaLiczb[0] * tablicaLiczb[1];
+            wynik = tablicaLiczb[0] + tablicaLiczb[1];
             Console.WriteLine($" Iloczyn tych liczb to {wynik}");
             Console.Read();
             goto StartProgramu;
