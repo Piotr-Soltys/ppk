@@ -29,7 +29,7 @@ namespace PPK___Zadanie_2_pkt_3
                 }
             }
             wynik = tablicaLiczb[0] + tablicaLiczb[1];
-            Console.WriteLine($" Iloczyn tych liczb to {wynik}");
+            Console.WriteLine($" Suma tych liczb to {wynik}");
             Console.Read();
             goto StartProgramu;
         }
